@@ -266,7 +266,7 @@ class PlasmoAudioPlayerManager : PluginKoinComponent {
         lavaPlayerManager.registerSourceManager(SoundCloudAudioSourceManager.createDefault())
         lavaPlayerManager.registerSourceManager(BandcampAudioSourceManager())
         lavaPlayerManager.registerSourceManager(VimeoAudioSourceManager())
-        lavaPlayerManager.registerSourceManager(TwitchStreamAudioSourceManager())
+//        lavaPlayerManager.registerSourceManager(TwitchStreamAudioSourceManager())
         lavaPlayerManager.registerSourceManager(BeamAudioSourceManager())
         lavaPlayerManager.registerSourceManager(GetyarnAudioSourceManager())
         lavaPlayerManager.registerSourceManager(CustomHttpAudioSourceManager())
